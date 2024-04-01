@@ -1,18 +1,5 @@
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2,
-    spaceBetween: 30,
-    freeMode: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-});
 
-var swiper = new Swiper(".mySwipers", {
+var swiper = new Swiper(".mySwiperse", {
     rewind: true,
     effect: "coverflow",
     grabCursor: true,
@@ -28,7 +15,7 @@ var swiper = new Swiper(".mySwipers", {
     pagination: {
         el: ".swiper-pagination",
     },
-    spaceBetween: 30,
+    spaceBetween: 3,
     centeredSlides: true,
     autoplay: {
         delay: 2500,
@@ -40,9 +27,9 @@ var swiper = new Swiper(".mySwipers", {
     },
 });
 
-var swiper = new Swiper(".mySwipere", {
-    slidesPerView: 4,
-    spaceBetween: 30,
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 10,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -50,9 +37,9 @@ var swiper = new Swiper(".mySwipere", {
 });
 
 
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
+var swiper = new Swiper(".mySwipers", {
+    slidesPerView: 2,
+    spaceBetween: 3,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,

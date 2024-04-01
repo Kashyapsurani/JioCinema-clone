@@ -1,4 +1,9 @@
 
+*{
+    width: auto;
+    height: auto;
+}
+
 body{
     padding-left: 20px;
 }
