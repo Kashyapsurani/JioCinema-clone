@@ -6,8 +6,8 @@ var swiper = new Swiper(".mySwiperse", {
     centeredSlides: true,
     slidesPerView: "auto",
     coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
+        rotate: 1,
+        stretch: 322,
         depth: 100,
         modifier: 1,
         slideShadows: true,
@@ -18,7 +18,7 @@ var swiper = new Swiper(".mySwiperse", {
     spaceBetween: 3,
     centeredSlides: true,
     autoplay: {
-        delay: 2500,
+        delay: 1500,
         disableOnInteraction: false,
     },
     pagination: {
@@ -28,8 +28,8 @@ var swiper = new Swiper(".mySwiperse", {
 });
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5,
-    spaceBetween: 10,
+    slidesPerView: 5.5,
+    spaceBetween: 5,
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
@@ -38,7 +38,7 @@ var swiper = new Swiper(".mySwiper", {
 
 
 var swiper = new Swiper(".mySwipers", {
-    slidesPerView: 2,
+    slidesPerView: 2.5,
     spaceBetween: 3,
     pagination: {
         el: ".swiper-pagination",
