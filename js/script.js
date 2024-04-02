@@ -58,15 +58,15 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
-// var swiper = new Swiper(".mySwipere", {
-//     slidesPerView: 4,
-//     spaceBetween: 30,
+var swiper = new Swiper(".mySwipere", {
+    slidesPerView: 4,
+    spaceBetween: 30,
 
-//     pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//     },
-// });
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+});
 
 
 
