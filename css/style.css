@@ -102,6 +102,10 @@ li {
     width: 100%;
 }
 
+.card{
+    border: none;
+}
+
 .row4{
     width: 100%;
 }

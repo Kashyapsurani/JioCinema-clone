@@ -28,7 +28,7 @@ var swiper = new Swiper(".mySwiperse", {
 });
 
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5.5,
+    slidesPerView: 4.5,
     spaceBetween: 5,
     pagination: {
         el: ".swiper-pagination",
