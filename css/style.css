@@ -1,6 +1,8 @@
 
+
 body{
-    padding-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
@@ -23,10 +25,12 @@ li {
     width: 15%;
 }
 
+
+
 .alert .swiper-slide  {
     border-radius: 20px;
     background-color: #000000;
-    border: 2px solid  #000;
+    border: 2px solid  #000000;
     color: white;
     outline: none;
     width: 100%;
@@ -103,7 +107,14 @@ li {
 }
 
 .card{
-    border: none;
+    opacity: 0.8;
+   border: none;
+}
+
+.card:hover{
+    
+    opacity: .9;
+    
 }
 
 .row4{
@@ -115,7 +126,8 @@ li {
 }
 
 footer{
-    width: 100%;
+    padding: 48px 24px 24px;
+    width: 99%;
     margin-top: 100px;
     background-color: #0b0b0b;
 }
@@ -128,4 +140,12 @@ footer{
     text-align: center;
     padding: 1px 1px ;
     background-color: #474747;
+}
+
+
+.me-10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
