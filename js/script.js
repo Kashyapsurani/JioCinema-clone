@@ -53,3 +53,26 @@ var swiper = new Swiper(".mySwipers", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+
+function myfununction() {
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    let user = "kashyap";
+    let pass = "surani";
+    if (username == user && password == pass) {
+        location.replace("http://127.0.0.1:5502/main.html")
+    } else if (username != user && password == pass) {
+        Swal.fire({
+            icon: "error",
+            title: "your username is worng",
+        });
+    } else if (username == user && password != pass) {
+        Swal.fire({
+            icon: "error",
+            title: "your password is worng",
+        });
+    }
+
+}
