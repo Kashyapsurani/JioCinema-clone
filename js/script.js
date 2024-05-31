@@ -59,14 +59,9 @@ function myfununction() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
-    let user = username;
-    let pass = password;
+    let user = "kashyap";
+    let pass = "123456789̧";
     if (username == user && password == pass) {
-        Swal.fire({
-            title: "Good job!",
-            text: "You are Successfully Login!",
-            icon: "success"
-        });
         location.replace("http://127.0.0.1:5502/main.html");
     } else if (username != user && password == pass) {
         Swal.fire({
