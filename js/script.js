@@ -59,20 +59,32 @@ function myfununction() {
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
 
-    let user = "kashyap";
-    let pass = "surani";
+    let user = username;
+    let pass = password;
     if (username == user && password == pass) {
-        location.replace("http://127.0.0.1:5502/main.html")
+        Swal.fire({
+            title: "Good job!",
+            text: "You are Successfully Login!",
+            icon: "success"
+        });
+        location.replace("http://127.0.0.1:5502/main.html");
     } else if (username != user && password == pass) {
         Swal.fire({
             icon: "error",
-            title: "your username is worng",
+            title: "Your Username Is Worng",
         });
     } else if (username == user && password != pass) {
         Swal.fire({
             icon: "error",
-            title: "your password is worng",
+            title: "Your Password Is Worng",
         });
     }
+    else if (username != user && password != pass) {
+        Swal.fire({
+            icon: "error",
+            title: "Your Username And Password Is Worng",
+        });
+
+    } 
 
 }
