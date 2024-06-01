@@ -60,7 +60,7 @@ function myfununction() {
     let password = document.getElementById("password").value;
 
     let user = "kashyap";
-    let pass = "123456789̧";
+    let pass = "123456789";
     if (username == user && password == pass) {
         location.replace("http://127.0.0.1:5502/main.html");
     } else if (username != user && password == pass) {
