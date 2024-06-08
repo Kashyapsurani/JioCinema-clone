@@ -62,7 +62,7 @@ function myfununction() {
     let user = "kashyap";
     let pass = "123456789";
     if (username == user && password == pass) {
-        location.replace("http://127.0.0.1:5502/main.html");
+        location.replace("http://127.0.0.1:5504/main.html");
     } else if (username != user && password == pass) {
         Swal.fire({
             icon: "error",
